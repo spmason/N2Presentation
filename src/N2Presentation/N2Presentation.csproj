@@ -203,12 +203,14 @@
     <Compile Include="Models\ContentModelBase.cs" />
     <Compile Include="Models\NewsContainerModel.cs" />
     <Compile Include="Models\Parts\ABTestingContainer.cs" />
+    <Compile Include="Details\EditableTwitterUserNameAttribute.cs" />
     <Compile Include="Models\Parts\Questions\FileAttachmentQuestion.cs" />
     <Compile Include="Models\Parts\Questions\MultipleSelect.cs" />
     <Compile Include="Models\Parts\Questions\OptionSelectQuestion.cs" />
     <Compile Include="Models\Parts\Questions\Question.cs" />
     <Compile Include="Models\Parts\Questions\SingleSelect.cs" />
     <Compile Include="Models\Parts\Questions\TextQuestion.cs" />
+    <Compile Include="Models\Parts\TwitterPart.cs" />
     <Compile Include="Services\IViewConcern.cs" />
     <Compile Include="Services\WebForms\MvcOnWebFormPartAdapter.cs" />
     <Compile Include="Tabs.cs" />
@@ -409,6 +411,7 @@
     <Content Include="Views\ABTesting\Index.ascx" />
     <Content Include="Views\RssAggregator\Index.ascx" />
     <Content Include="Views\Shared\Empty.ascx" />
+    <Content Include="Views\Shared\PartTemplates\TwitterPart.ascx" />
     <Content Include="Web.config" />
     <Content Include="App_Data\web.n2.host.config">
       <DependentUpon>Web.config</DependentUpon>
