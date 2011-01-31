@@ -210,7 +210,6 @@
     <Compile Include="Models\Parts\Questions\Question.cs" />
     <Compile Include="Models\Parts\Questions\SingleSelect.cs" />
     <Compile Include="Models\Parts\Questions\TextQuestion.cs" />
-    <Compile Include="Models\Parts\TwitterPart.cs" />
     <Compile Include="Services\IViewConcern.cs" />
     <Compile Include="Services\WebForms\MvcOnWebFormPartAdapter.cs" />
     <Compile Include="Tabs.cs" />
